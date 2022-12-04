@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alisveris Sepeti</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <style>
+        body {
+            width: 80%;
+            margin: auto;
+        }
+
+        button {
+            width: 24%;
+            height: 50px;
+            margin-top: 10px;
+            text-align: center;
+            background-color: #EE755F;
+            color: white;
+            font-size: larger;
+        }
+
+        i {
+            color: black;
+            padding: 6px;
+
+
+        }
+
+        table {
+            width: 100%;
+            margin: auto;
+            padding: 25px;
+            font-size: large;
+            border: 1px solid white;
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+            /* border-spacing: 0px; */
+        }
+
+        th,
+        td {
+            border: 1px solid rgb(145, 139, 139);
+            padding: 10px;
+        }
+
+
+        tbody>tr:nth-child(odd) {
+            background: #CDCDCD;
+        }
+
+        thead {
+            background-color: #3F3F3F;
+            color: white;
+        }
+
+        tfoot {
+            background-color: #595859;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+
+        <thead>
+            <tr>
+                <th style="text-align:left">Ürün Kodu</th>
+                <th style="text-align:left; width:35%;">Ürün Adı</th>
+                <th>Miktar</th>
+                <th style="text-align:right">Birim Fiyat</th>
+                <th style="text-align:right">Ara Toplam</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>154654</td>
+                <td>Notebook</td>
+                <td style="text-align:center">1</td>
+                <td style="text-align:right">5.400₺</td>
+                <td style="text-align:right">5.400₺</td>
+                <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-regular fa-trash-can"></i></td>
+            </tr>
+            <tr>
+                <td>456466</td>
+                <td>Klavye</td>
+                <td style="text-align:center">2</td>
+                <td style="text-align:right">80₺</td>
+                <td style="text-align:right">160₺</td>
+                <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-regular fa-trash-can"></i></td>
+            </tr>
+            <tr>
+                <td>564646</td>
+                <td>Monitör</td>
+                <td style="text-align:center">1</td>
+                <td style="text-align:right">700₺</td>
+                <td style="text-align:right">700₺</td>
+                <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-regular fa-trash-can"></i></td>
+            </tr>
+            <tr>
+                <td>123598</td>
+                <td>Mause</td>
+                <td style="text-align:center">2</td>
+                <td style="text-align:right">50₺</td>
+                <td style="text-align:right">100₺</td>
+                <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-regular fa-trash-can"></i></td>
+            </tr>
+            <tr>
+                <td>613448</td>
+                <td>Play Station</td>
+                <td style="text-align:center">1</td>
+                <td style="text-align:right">2.500₺</td>
+                <td style="text-align:right">2.500₺</td>
+                <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-regular fa-trash-can"></i></td>
+            </tr>
+            <tr>
+                <td>789799</td>
+                <td>Usb Bellek</td>
+                <td style="text-align:center">3</td>
+                <td style="text-align:right">120₺</td>
+                <td style="text-align:right">360₺</td>
+                <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-regular fa-trash-can"></i></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th style="text-align:right" colspan="4">TOPLAM</th>
+                <!-- <td>2</td> -->
+                <!-- <td>3</td> -->
+                <!-- <td>4</td> -->
+                <th style="text-align:right">9.220₺</th>
+                <td>&nbsp;</td>
+            </tr>
+        </tfoot>
+    </table>
+    <div style="text-align: right;">
+        <button><i class="fa-solid fa-cart-shopping"></i>Alışverişe Devam</button>
+        <button><i class="fa fa-credit-card-alt" aria-hidden="true"></i> Ödemeye
+            Geç</button>
+    </div>
+</body>
+
+</html>
